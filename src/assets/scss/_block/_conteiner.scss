@@ -1,0 +1,15 @@
+.conteiner {
+  width: 1000px;
+  // width:80%;
+  margin: 0 auto;
+
+  @media (max-width: 767px) {
+    width: 95%;
+  }
+  @media (max-width: 1180px) {
+    width: 90%;
+  }
+  // @media (min-width: $mobile-width) {
+  //     width:100%;
+  // }
+}
